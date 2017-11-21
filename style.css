@@ -1,0 +1,22 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #6893A4;
+	font-family: ubuntu;
+}
+
+header img {
+	width: 1285px;
+	height: 200px;
+	border-radius: 20px;
+	border: 3px solid white;
+	margin-top: 5px;
+	margin-left: 5px;
+}
