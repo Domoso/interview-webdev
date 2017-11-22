@@ -5,18 +5,184 @@
 
 a {
 	text-decoration: none;
+	color: #999483;
 }
 
 body {
-	background-color: #6893A4;
 	font-family: ubuntu;
+	background-color: #F1F7FA;
 }
 
-header img {
-	width: 1285px;
-	height: 200px;
-	border-radius: 20px;
-	border: 3px solid white;
+.grid {
+	display: grid;
+	position: relative;
+	width: 1284px;
+	height: 240px;
 	margin-top: 5px;
-	margin-left: 5px;
+	margin-left: 7px;
+	grid-template-columns: 236px 236px 236px 236px 236px;
+	grid-template-rows: 200px 40px;
+}
+
+.title {
+	position: relative;
+	grid-column: 1/6;
+	grid-row: 1;
+	text-align: center;
+}
+
+#imgtitre {
+	width: 1265px;
+	height: 240px;
+	border-radius: 20px;
+	border: 5px solid white;
+}
+
+#titre {
+	position: relative;
+	margin-top: -175px;
+	font-family: ubuntu;
+	font-size: 50px;
+	color: #57544A;
+}
+
+.Accueil {
+	position: relative;
+	text-align: center;
+	color: #999483;
+}
+
+.MakingOf {
+	position: relative;
+	text-align: center;
+}
+
+.Entreprise {
+	position: relative;
+	text-align: center;
+}
+
+.Interview {
+	position: relative;
+	text-align: center;
+}
+
+.Conclusion {
+	position: relative;
+	text-align: center;
+}
+
+main {
+	
+}
+
+#imgmain {
+	
+	width: 1285px;
+	height: 1980px;
+}
+
+/*Zone page accueil*/
+
+main h3 {
+	position: relative;
+	margin-top: -1940px;
+	margin-left: 70px;
+}
+
+main h4 {
+	position: relative;
+	margin-left: 75px;
+}
+
+main p {
+	position: relative;
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 30px;
+}
+
+/*Zone page makingof*/
+
+.mainmakingof h3 {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.mainmakingof h4 {
+	position: relative;
+	margin-left: 75px;
+}
+
+.mainmakingof p {
+	position: relative;
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 30px;
+}
+
+/*Zone page entreprise*/
+
+.mainentreprise h3 {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.mainentreprise h4 {
+	position: relative;
+	margin-left: 75px;
+}
+
+.mainentreprise p {
+	position: relative;
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 30px;
+}
+
+/*Zone interview*/
+
+.maininterview h3 {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.maininterview h4 {
+	position: relative;
+	margin-left: 75px;
+}
+
+.maininterview p {
+	position: relative;
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 30px;
+}
+
+/*Zone page conclusion*/
+
+.mainconclusion h3 {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.mainconclusion h4 {
+	position: relative;
+	margin-left: 75px;
+}
+
+.mainconclusion p {
+	position: relative;
+	text-align: justify;
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 30px;
 }
