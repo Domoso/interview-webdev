@@ -74,28 +74,15 @@ body {
 
 #imgmain {
 	width: 1285px;
-	height: 3500px;
 }
 
-.maininterview h2 {
-	margin-top: -3460px;
+.mainconclusion h3 {
+	position: relative;
+	margin-top: -785px;
 	margin-left: 70px;
 }
 
-.maininterview h3 {
+.mainconclusion p {
 	margin-left: 80px;
-}
-
-.maininterview h4 {
-	margin-left: 90px;
-}
-
-.maininterview p {
-	margin-left: 70px;
-	margin-right: 20px;
 	line-height: 30px;
-}
-
-.maininterview li {
-	margin-left: 90px;
 }
