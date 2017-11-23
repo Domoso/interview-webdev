@@ -72,70 +72,10 @@ body {
 	text-align: center;
 }
 
-main {
-	
-}
-
 #imgmain {
-	
 	width: 1285px;
-	height: 1980px;
+	height: 3000px;
 }
-
-/*Zone page accueil*/
-
-main h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-main h4 {
-	position: relative;
-	margin-left: 75px;
-}
-
-main p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
-
-/*Zone page makingof*/
-
-.mainmakingof h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-.mainmakingof p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
-
-/*Zone page entreprise*/
-
-.mainentreprise h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-.mainentreprise p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
-
-/*Zone interview*/
 
 .maininterview h2 {
 	margin-top: -2945px;
@@ -157,20 +97,4 @@ main p {
 
 .maininterview li {
 	margin-left: 90px;
-}
-
-/*Zone page conclusion*/
-
-.mainconclusion h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-.mainconclusion p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
 }
