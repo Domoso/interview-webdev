@@ -13,6 +13,12 @@ body {
 	background-color: #F1F7FA;
 }
 
+header {
+	position: fixed;
+	position: absolute;
+	z-index: 10;
+}
+
 .grid {
 	display: grid;
 	position: relative;
@@ -107,7 +113,7 @@ main p {
 
 .mainmakingof h3 {
 	position: relative;
-	margin-top: -1940px;
+	margin-top: -1690px;
 	margin-left: 70px;
 }
 
@@ -123,51 +129,11 @@ main p {
 
 .mainentreprise h3 {
 	position: relative;
-	margin-top: -1940px;
+	margin-top: -1690px;
 	margin-left: 70px;
 }
 
 .mainentreprise p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
-
-/*Zone interview*/
-
-.maininterview h2 {
-	margin-top: -2945px;
-	margin-left: 70px;
-}
-
-.maininterview h3 {
-	margin-left: 80px;
-}
-
-.maininterview h4 {
-	margin-left: 90px;
-}
-
-.maininterview p {
-	margin-left: 70px;
-	margin-right: 20px;
-}
-
-.maininterview li {
-	margin-left: 90px;
-}
-
-/*Zone page conclusion*/
-
-.mainconclusion h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-.mainconclusion p {
 	position: relative;
 	text-align: justify;
 	margin-left: 80px;
