@@ -1,142 +1,90 @@
 * {
-	margin: 0px;
-	padding: 0px;
-}
-
-a {
-	text-decoration: none;
-	color: #999483;
-}
+  margin: 0;
+  padding: 0; }
 
 body {
-	font-family: ubuntu;
-	background-color: #F1F7FA;
-}
+  font-family: ubuntu;
+  background-color: #F1F7FA; }
 
-header {
-	position: fixed;
-	position: absolute;
-	z-index: 10;
-}
+a {
+  text-decoration: none;
+  color: #999483; }
 
 .grid {
-	display: grid;
-	position: relative;
-	width: 1284px;
-	height: 240px;
-	margin-top: 5px;
-	margin-left: 7px;
-	grid-template-columns: 236px 236px 236px 236px 236px;
-	grid-template-rows: 200px 40px;
-}
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 240px;
+  grid-template-columns: 236px 236px 236px 236px 236px;
+  grid-template-rows: 200px 40px;
+  margin-top: 5px;
+  margin-left: 7px; }
 
 .title {
-	position: relative;
-	grid-column: 1/6;
-	grid-row: 1;
-	text-align: center;
-}
+  position: relative;
+  grid-column: 1/6;
+  grid-row: 1;
+  text-align: center; }
 
-#imgtitre {
-	width: 1265px;
-	height: 240px;
-	border-radius: 20px;
-	border: 5px solid white;
-}
+.imgtitre {
+  width: 1265px;
+  height: 240px;
+  border-radius: 20px;
+  border: 5px solid white; }
 
-#titre {
-	position: relative;
-	margin-top: -175px;
-	font-family: ubuntu;
-	font-size: 50px;
-	color: #57544A;
-}
+.titre {
+  position: relative;
+  margin-top: -178px;
+  font-family: ubuntu;
+  font-size: 50px;
+  color: #57544A; }
 
 .Accueil {
-	position: relative;
-	text-align: center;
-	color: #999483;
-}
+  position: relative;
+  text-align: center;
+  color: #999483; }
 
 .MakingOf {
-	position: relative;
-	text-align: center;
-}
+  position: relative;
+  text-align: center; }
 
 .Entreprise {
-	position: relative;
-	text-align: center;
-}
+  position: relative;
+  text-align: center; }
 
 .Interview {
-	position: relative;
-	text-align: center;
-}
+  position: relative;
+  text-align: center; }
 
 .Conclusion {
-	position: relative;
-	text-align: center;
-}
+  position: relative;
+  text-align: center; }
 
-main {
-	
-}
+.imgmain {
+  width: 100%;
+  height: 1500px; }
 
-#imgmain {
-	
-	width: 1285px;
-	height: 1980px;
-}
+.mainindex h3 {
+  margin-top: -1450px;
+  margin-left: 250px; }
 
-/*Zone page accueil*/
+.mainindex h4 {
+  margin-left: 255px; }
 
-main h3 {
-	position: relative;
-	margin-top: -1940px;
-	margin-left: 70px;
-}
-
-main h4 {
-	position: relative;
-	margin-left: 75px;
-}
-
-main p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
-
-/*Zone page makingof*/
+.mainindex p {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: justify;
+  line-height: 25px; }
 
 .mainmakingof h3 {
-	position: relative;
-	margin-top: -1690px;
-	margin-left: 70px;
-}
+  margin-top: -1450px;
+  margin-left: 250px; }
 
 .mainmakingof p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: justify;
+  line-height: 25px; }
 
-/*Zone page entreprise*/
-
-.mainentreprise h3 {
-	position: relative;
-	margin-top: -1690px;
-	margin-left: 70px;
-}
-
-.mainentreprise p {
-	position: relative;
-	text-align: justify;
-	margin-left: 80px;
-	margin-right: 80px;
-	line-height: 30px;
-}
+/*# sourceMappingURL=style.css.map */
