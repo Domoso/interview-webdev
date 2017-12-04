@@ -64,6 +64,10 @@ a {
   width: 100%;
   height: 1500px; }
 
+.imgmaininterview {
+  width: 100%;
+  height: 4000px; }
+
 .mainindex h3 {
   margin-top: -1450px;
   margin-left: 250px; }
@@ -86,5 +90,33 @@ a {
   margin-right: 250px;
   text-align: justify;
   line-height: 25px; }
+
+.mainentreprise h3 {
+  margin-top: -1450px;
+  margin-left: 250px; }
+
+.mainentreprise p {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: justify;
+  line-height: 25px; }
+
+.maininterview h2 {
+  margin-top: -3940px;
+  margin-left: 255px; }
+
+.maininterview h3 {
+  margin-left: 260px; }
+
+.maininterview h4 {
+  margin-left: 265px; }
+
+.maininterview p {
+  margin-left: 270px;
+  margin-right: 270px;
+  line-height: 25px; }
+
+.maininterview li {
+  margin-left: 265px; }
 
 /*# sourceMappingURL=style.css.map */
